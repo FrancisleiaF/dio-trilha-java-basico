@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
+        
         Scanner texto = new Scanner (System.in).useLocale(Locale.US);
         String agencia;
         System.out.println("Por favor, digite o número da Agência !(067-8) ");
